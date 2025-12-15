@@ -4,7 +4,6 @@ import bencit.com.restaurantmanager.Program;
 import bencit.com.restaurantmanager.utils.Dialog;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.stage.Stage;
 
 public class MenuController {
     public void showEmployeesScreen() {
