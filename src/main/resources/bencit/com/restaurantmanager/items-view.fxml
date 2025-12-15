@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bencit.com.restaurantmanager.controllers.ItemController">
+    <top>
+        <SplitPane dividerPositions="0.13636363636363635" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0"
+                   BorderPane.alignment="CENTER">
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <fx:include source="menu-component.fxml"/>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                <SplitPane dividerPositions="0.4">
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                        <TextField layoutX="20.0" layoutY="14.0" prefHeight="25.0" prefWidth="308.0"
+                                   promptText="Path"/>
+                        <Button layoutX="339.0" layoutY="14.0" mnemonicParsing="false" text="..."/>
+                        <Button layoutX="14.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0"
+                                prefWidth="60.0" text="Save"/>
+                        <Button layoutX="88.0" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0"
+                                prefWidth="60.0" text="Clear"/>
+                    </AnchorPane>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="914.0">
+                        <GridPane layoutX="-3.0" layoutY="-3.0" prefHeight="165.0" prefWidth="612.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                            </rowConstraints>
+                            <Button fx:id="addItemButton" mnemonicParsing="false" onAction="#addItem"
+                                    prefHeight="25.0" prefWidth="119.0" text="Add"
+                                    GridPane.columnIndex="1" GridPane.halignment="RIGHT"
+                                    GridPane.rowIndex="3">
+                                <GridPane.margin>
+                                    <Insets right="10.0"/>
+                                </GridPane.margin>
+                            </Button>
+                            <ComboBox fx:id="typeOfItemComboBox" prefWidth="150.0"
+                                      promptText="Tip proizvoda">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </ComboBox>
+                            <RadioButton fx:id="itemAvailableRadioButton" mnemonicParsing="false"
+                                         text="Dostupno" GridPane.rowIndex="3">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </RadioButton>
+                            <TextField fx:id="nameOfItemTextField" maxWidth="-Infinity"
+                                       minWidth="-Infinity" prefWidth="200.0" promptText="Ime proizvoda"
+                                       GridPane.rowIndex="1">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </TextField>
+                            <TextField fx:id="descriptionOfItemTextField" maxHeight="-Infinity"
+                                       maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+                                       prefHeight="45.0" prefWidth="250.0" promptText="Opis proizvoda"
+                                       GridPane.rowIndex="2">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </TextField>
+                            <ComboBox fx:id="sizeOfItemComboBox" onMouseClicked="#fillSizeOfItem"
+                                      prefWidth="150.0" promptText="Veličina proizvoda"
+                                      GridPane.columnIndex="1">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </ComboBox>
+                            <TextField fx:id="priceOfItemTextField" maxWidth="-Infinity"
+                                       minWidth="-Infinity" prefHeight="25.0" prefWidth="109.0"
+                                       promptText="Cijena" GridPane.columnIndex="1"
+                                       GridPane.rowIndex="1">
+                                <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                                </GridPane.margin>
+                            </TextField>
+                            <ComboBox fx:id="currencyOfItemComboBox" prefHeight="25.0" prefWidth="78.0"
+                                      promptText="Valuta" GridPane.columnIndex="1"
+                                      GridPane.rowIndex="1">
+                                <GridPane.margin>
+                                    <Insets left="125.0"/>
+                                </GridPane.margin>
+                            </ComboBox>
+                        </GridPane>
+                    </AnchorPane>
+                </SplitPane>
+            </AnchorPane>
+        </SplitPane>
+    </top>
+    <center>
+        <TableView fx:id="itemTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <columns>
+            <TableColumn fx:id="idOfItemColumn" editable="false" prefWidth="79.0" text="ID proizvoda" />
+                <TableColumn fx:id="typeOfItemColumn" prefWidth="98.0" text="Tip proizvoda" />
+                <TableColumn fx:id="nameOfItemColumn" prefWidth="202.0" text="Ime proizvoda" />
+                <TableColumn fx:id="descriptionOfItemColumn" prefWidth="423.0" text="Opis proizvoda" />
+                <TableColumn fx:id="availableItemColumn" prefWidth="89.0" text="Dostupno" />
+            <TableColumn fx:id="priceOfItemColumn" prefWidth="132.0" text="Cijena" />
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
