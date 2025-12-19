@@ -1,5 +1,5 @@
 package bencit.com.restaurantmanager.enums;
 
-public enum FoodSizes {
+public enum ItemSizes {
     SMALL, MEDIUM, LARGE
 }

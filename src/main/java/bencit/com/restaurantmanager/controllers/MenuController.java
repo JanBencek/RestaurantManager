@@ -28,9 +28,11 @@ public class MenuController {
             Program.getStage().show();
 
         }
-        catch (Exception e){
+        catch (Exception e) {
+            e.printStackTrace();                 // <-- shows the real cause in console
             Dialog.showErrorDialog(e);
         }
+
     }
     public void showTablesScreen(){
         try{

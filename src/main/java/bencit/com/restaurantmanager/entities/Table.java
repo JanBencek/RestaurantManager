@@ -3,7 +3,9 @@ package bencit.com.restaurantmanager.entities;
 import bencit.com.restaurantmanager.enums.TableLocations;
 import bencit.com.restaurantmanager.enums.TableTypes;
 
-public class Table {
+import java.io.Serializable;
+
+public class Table implements Serializable {
     private Integer id;
     private TableTypes type;
     private Integer numberOfSeats;
@@ -17,6 +19,8 @@ public class Table {
         this.tableAvailable = tableAvailable;
         this.tableLocation = tableLocation;
     }
+
+    public Table(){}
 
     public Integer getId() {
         return id;

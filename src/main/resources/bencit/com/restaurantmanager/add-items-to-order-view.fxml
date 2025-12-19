@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bencit.com.restaurantmanager.controllers.PickOrderItemsController">
+   <left>
+      <TableView fx:id="selectableItemsTable" prefHeight="401.0" prefWidth="326.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="selectNameOfItemColumn" prefWidth="174.0" text="Ime proizvoda" />
+          <TableColumn fx:id="selectSizeOfItemColumn" prefWidth="85.0" text="Veličina" />
+            <TableColumn fx:id="selectPriceOfItemColumn" prefWidth="66.0" text="Cijena" />
+        </columns>
+         <BorderPane.margin>
+            <Insets left="10.0" />
+         </BorderPane.margin>
+      </TableView>
+   </left>
+   <right>
+      <TableView fx:id="selectedItemsTable" prefHeight="401.0" prefWidth="409.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="selectedNameOfItemColumn" prefWidth="206.0" text="Ime proizvoda" />
+          <TableColumn fx:id="selectedSizeOfItemColumn" prefWidth="84.0" text="Veličina" />
+            <TableColumn fx:id="selectedPriceOfItemColumn" prefWidth="62.0" text="Cijena" />
+            <TableColumn fx:id="selectedQuantityOfItemColumn" prefWidth="56.0" text="Količina" />
+        </columns>
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin>
+      </TableView>
+   </right>
+   <top>
+       <GridPane prefHeight="65.0" prefWidth="738.0" BorderPane.alignment="CENTER">
+           <columnConstraints>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="410.0" minWidth="10.0" prefWidth="381.0"/>
+               <ColumnConstraints hgrow="SOMETIMES" maxWidth="443.0" minWidth="10.0" prefWidth="419.0"/>
+           </columnConstraints>
+           <rowConstraints>
+               <RowConstraints maxHeight="28.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES"/>
+               <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES"/>
+           </rowConstraints>
+           <Label text="Dostupni proizvodi" GridPane.rowIndex="1">
+              <GridPane.margin>
+                  <Insets left="10.0"/>
+              </GridPane.margin>
+           </Label>
+           <Label text="Proizvoid u nardužbi" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+           <Button fx:id="clearItemsInOrderButton" mnemonicParsing="false" onAction="#clearItemsInOrder" text="Očisti"
+                   GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+              <GridPane.margin>
+                  <Insets right="10.0"/>
+              </GridPane.margin>
+           </Button>
+       </GridPane>
+   </top>
+   <bottom>
+       <HBox alignment="CENTER_RIGHT" nodeOrientation="LEFT_TO_RIGHT" prefHeight="34.0" prefWidth="600.0"
+             BorderPane.alignment="CENTER">
+           <Button fx:id="confirmItemsToOrder" mnemonicParsing="false" onAction="#addItemsToOrder" text="Ok">
+              <HBox.margin>
+                  <Insets right="10.0"/>
+              </HBox.margin>
+              <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="5.0"/>
+              </padding>
+           </Button>
+       </HBox>
+   </bottom>
+</BorderPane>
