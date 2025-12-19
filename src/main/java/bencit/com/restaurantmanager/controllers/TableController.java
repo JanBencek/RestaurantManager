@@ -40,7 +40,7 @@ public class TableController {
     @FXML private TextField pathToFileTextField;
 
     @FXML
-    void addTable() {
+    private void addTable() {
         try {
             
             Boolean tableAvailable = availableTableRadioButton.isSelected();
@@ -76,15 +76,13 @@ public class TableController {
     }
 
     File file;
-    @FXML
-    public void findFile() {
+    @FXML private void findFile() {
         FileChooser fc = new FileChooser();
         file = fc.showOpenDialog(Program.getStage());
         pathToFileTextField.setText(String.valueOf(file));
         readFromFile();
     }
-    @FXML
-    void saveToFile() {
+    @FXML private void saveToFile() {
         if (file == null) {
             FileChooser fc = new FileChooser();
             fc.setTitle("Save File");
@@ -103,8 +101,7 @@ public class TableController {
         }
     }
 
-    @FXML
-    void readFromFile() {
+    @FXML private void readFromFile() {
         if (file == null || !file.exists()) {
             bencit.com.restaurantmanager.utils.Dialog.showErrorDialog(new IOException());
             return;
@@ -122,8 +119,7 @@ public class TableController {
         }
     }
 
-    @FXML
-    void clearFile() {
+    @FXML private void clearFile() {
         availableTables.clear();
         if (file != null && file.exists()) {
             try (FileWriter writer = new FileWriter(file, false)) {

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Ivo",
+    "lastName": "Ivić",
+    "dateOfBirth": "10.12.1993",
+    "phoneNumber": "091 234 5678",
+    "role": "ŠEF",
+    "roleDescription": "Voditelj kuhinje"
+  },
+  {
+    "id": 2,
+    "name": "Ana",
+    "lastName": "Horvat",
+    "dateOfBirth": "05.06.1998",
+    "phoneNumber": "098 111 2222",
+    "role": "KONOBAR",
+    "roleDescription": "Posluživanje gostiju"
+  },
+  {
+    "id": 3,
+    "name": "Marko",
+    "lastName": "Marić",
+    "dateOfBirth": "22.01.2000",
+    "phoneNumber": "095 333 4444",
+    "role": "KUHAR",
+    "roleDescription": "Priprema hrane"
+  },
+  {
+    "id": 4,
+    "name": "Ivana",
+    "lastName": "Kovač",
+    "dateOfBirth": "14.09.1995",
+    "phoneNumber": "097 555 6666",
+    "role": "ČISTAČ",
+    "roleDescription": "Održavanje prostora"
+  },
+  {
+    "id": 5,
+    "name": "Petar",
+    "lastName": "Babić",
+    "dateOfBirth": "03.03.1990",
+    "phoneNumber": "091 555 1200",
+    "role": "KUHAR",
+    "roleDescription": "Roštilj i topla jela"
+  },
+  {
+    "id": 6,
+    "name": "Maja",
+    "lastName": "Novak",
+    "dateOfBirth": "18.07.1999",
+    "phoneNumber": "098 555 1201",
+    "role": "KONOBAR",
+    "roleDescription": "Smjene terasa"
+  },
+  {
+    "id": 7,
+    "name": "Luka",
+    "lastName": "Jurić",
+    "dateOfBirth": "29.11.1996",
+    "phoneNumber": "095 555 1202",
+    "role": "KUHAR",
+    "roleDescription": "Hladna kuhinja"
+  },
+  {
+    "id": 8,
+    "name": "Sara",
+    "lastName": "Božić",
+    "dateOfBirth": "12.02.2001",
+    "phoneNumber": "097 555 1203",
+    "role": "KONOBAR",
+    "roleDescription": "Bar i pića"
+  },
+  {
+    "id": 9,
+    "name": "Nikola",
+    "lastName": "Radić",
+    "dateOfBirth": "07.04.1994",
+    "phoneNumber": "091 555 1204",
+    "role": "ČISTAČ",
+    "roleDescription": "Jutarnje čišćenje"
+  },
+  {
+    "id": 10,
+    "name": "Karla",
+    "lastName": "Vuković",
+    "dateOfBirth": "25.08.1997",
+    "phoneNumber": "098 555 1205",
+    "role": "KONOBAR",
+    "roleDescription": "Blagajna i narudžbe"
+  },
+  {
+    "id": 11,
+    "name": "Tomislav",
+    "lastName": "Perić",
+    "dateOfBirth": "09.01.1989",
+    "phoneNumber": "095 555 1206",
+    "role": "ŠEF",
+    "roleDescription": "Voditelj smjene"
+  },
+  {
+    "id": 12,
+    "name": "Ema",
+    "lastName": "Matić",
+    "dateOfBirth": "30.05.2002",
+    "phoneNumber": "097 555 1207",
+    "role": "KONOBAR",
+    "roleDescription": "Unutra stolovi"
+  },
+  {
+    "id": 13,
+    "name": "Filip",
+    "lastName": "Knez",
+    "dateOfBirth": "16.10.1992",
+    "phoneNumber": "091 555 1208",
+    "role": "KUHAR",
+    "roleDescription": "Tjestenina i umaci"
+  },
+  {
+    "id": 14,
+    "name": "Lea",
+    "lastName": "Klarić",
+    "dateOfBirth": "21.12.1998",
+    "phoneNumber": "098 555 1209",
+    "role": "ČISTAČ",
+    "roleDescription": "Večernje čišćenje"
+  },
+  {
+    "id": 15,
+    "name": "Dario",
+    "lastName": "Grgić",
+    "dateOfBirth": "02.06.1991",
+    "phoneNumber": "095 555 1210",
+    "role": "KUHAR",
+    "roleDescription": "Priprema mesa"
+  },
+  {
+    "id": 16,
+    "name": "Nina",
+    "lastName": "Župan",
+    "dateOfBirth": "11.11.1996",
+    "phoneNumber": "097 555 1211",
+    "role": "KONOBAR",
+    "roleDescription": "Terasa stolovi"
+  },
+  {
+    "id": 17,
+    "name": "Ivan",
+    "lastName": "Sertić",
+    "dateOfBirth": "08.09.1993",
+    "phoneNumber": "091 555 1212",
+    "role": "KUHAR",
+    "roleDescription": "Prilozi"
+  },
+  {
+    "id": 18,
+    "name": "Marija",
+    "lastName": "Tomić",
+    "dateOfBirth": "19.03.1999",
+    "phoneNumber": "098 555 1213",
+    "role": "KONOBAR",
+    "roleDescription": "Dostava preuzimanja"
+  },
+  {
+    "id": 19,
+    "name": "Krešimir",
+    "lastName": "Šarić",
+    "dateOfBirth": "06.02.1988",
+    "phoneNumber": "095 555 1214",
+    "role": "ČISTAČ",
+    "roleDescription": "Sanitarije i podovi"
+  },
+  {
+    "id": 20,
+    "name": "Helena",
+    "lastName": "Pavić",
+    "dateOfBirth": "27.07.2000",
+    "phoneNumber": "097 555 1215",
+    "role": "KONOBAR",
+    "roleDescription": "Pića i računi"
+  },
+  {
+    "id": 21,
+    "name": "Matija",
+    "lastName": "Lončar",
+    "dateOfBirth": "01.04.1995",
+    "phoneNumber": "091 555 1216",
+    "role": "KUHAR",
+    "roleDescription": "Sendviči"
+  },
+  {
+    "id": 22,
+    "name": "Tea",
+    "lastName": "Barišić",
+    "dateOfBirth": "13.09.2001",
+    "phoneNumber": "098 555 1217",
+    "role": "KONOBAR",
+    "roleDescription": "Rezervacije"
+  },
+  {
+    "id": 23,
+    "name": "Josip",
+    "lastName": "Šimić",
+    "dateOfBirth": "24.02.1990",
+    "phoneNumber": "095 555 1218",
+    "role": "KUHAR",
+    "roleDescription": "Burgeri"
+  },
+  {
+    "id": 24,
+    "name": "Paula",
+    "lastName": "Knežević",
+    "dateOfBirth": "04.06.1997",
+    "phoneNumber": "097 555 1219",
+    "role": "ČISTAČ",
+    "roleDescription": "Stakla i terasa"
+  },
+  {
+    "id": 25,
+    "name": "Stjepan",
+    "lastName": "Blažević",
+    "dateOfBirth": "15.01.1992",
+    "phoneNumber": "091 555 1220",
+    "role": "KUHAR",
+    "roleDescription": "Salate"
+  },
+  {
+    "id": 26,
+    "name": "Dorotea",
+    "lastName": "Rukavina",
+    "dateOfBirth": "20.10.1999",
+    "phoneNumber": "098 555 1221",
+    "role": "KONOBAR",
+    "roleDescription": "Unutra + terasa"
+  },
+  {
+    "id": 27,
+    "name": "Antonio",
+    "lastName": "Cindrić",
+    "dateOfBirth": "31.12.1994",
+    "phoneNumber": "095 555 1222",
+    "role": "KUHAR",
+    "roleDescription": "Deserti"
+  },
+  {
+    "id": 28,
+    "name": "Mia",
+    "lastName": "Katić",
+    "dateOfBirth": "17.08.2002",
+    "phoneNumber": "097 555 1223",
+    "role": "KONOBAR",
+    "roleDescription": "Šank"
+  },
+  {
+    "id": 29,
+    "name": "Bruno",
+    "lastName": "Petrak",
+    "dateOfBirth": "23.05.1987",
+    "phoneNumber": "091 555 1224",
+    "role": "ČISTAČ",
+    "roleDescription": "Noćno čišćenje"
+  },
+  {
+    "id": 30,
+    "name": "Lucija",
+    "lastName": "Burić",
+    "dateOfBirth": "28.03.1998",
+    "phoneNumber": "098 555 1225",
+    "role": "KONOBAR",
+    "roleDescription": "Eventi i grupe"
+  }
+]

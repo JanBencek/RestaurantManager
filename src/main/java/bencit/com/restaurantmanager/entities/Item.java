@@ -23,15 +23,12 @@ public class Item implements Serializable {
         this.currency = currency;
     }
     public Item(){}
-
     public ItemSizes getItemSize() {
         return itemSize;
     }
-
     public void setItemSize(ItemSizes itemSize) {
         this.itemSize = itemSize;
     }
-
     public Currencies getCurrency() {
         return currency;
     }

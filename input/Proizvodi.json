@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "itemName": "Hamburger",
+    "itemDescription": "Meso, rajčica, umak, krastavci, salata",
+    "itemPrice": 7,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 2,
+    "itemName": "Cheeseburger",
+    "itemDescription": "Meso, sir, umak, luk, salata",
+    "itemPrice": 8,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 3,
+    "itemName": "Pomfrit",
+    "itemDescription": "Prženi krumpiri",
+    "itemPrice": 4,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 4,
+    "itemName": "Kola",
+    "itemDescription": "Gazirano piće",
+    "itemPrice": 3,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 5,
+    "itemName": "Voda",
+    "itemDescription": "Negazirana voda",
+    "itemPrice": 2,
+    "currency": "€",
+    "itemSize": "SMALL",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 6,
+    "itemName": "Cedevita",
+    "itemDescription": "Napitak od naranče",
+    "itemPrice": 3,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 7,
+    "itemName": "Kava",
+    "itemDescription": "Espresso",
+    "itemPrice": 2,
+    "currency": "€",
+    "itemSize": "SMALL",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 8,
+    "itemName": "Cappuccino",
+    "itemDescription": "Kava s mlijekom",
+    "itemPrice": 3,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 9,
+    "itemName": "Čaj",
+    "itemDescription": "Biljni čaj",
+    "itemPrice": 2,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 10,
+    "itemName": "Palačinke",
+    "itemDescription": "Nutella i banana",
+    "itemPrice": 6,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 11,
+    "itemName": "Salata pileća",
+    "itemDescription": "Piletina, zelena salata, dresing",
+    "itemPrice": 9,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 12,
+    "itemName": "Tjestenina bolognese",
+    "itemDescription": "Tjestenina, bolonjez umak",
+    "itemPrice": 10,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 13,
+    "itemName": "Pizza margherita",
+    "itemDescription": "Rajčica, mozzarella, bosiljak",
+    "itemPrice": 9,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 14,
+    "itemName": "Pizza šunka-sir",
+    "itemDescription": "Rajčica, šunka, sir",
+    "itemPrice": 11,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 15,
+    "itemName": "Juha dnevna",
+    "itemDescription": "Dnevna ponuda",
+    "itemPrice": 4,
+    "currency": "€",
+    "itemSize": "SMALL",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 16,
+    "itemName": "Sendvič classic",
+    "itemDescription": "Šunka, sir, salata, umak",
+    "itemPrice": 5,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 17,
+    "itemName": "Wrap piletina",
+    "itemDescription": "Piletina, povrće, umak",
+    "itemPrice": 8,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 18,
+    "itemName": "Lignje",
+    "itemDescription": "Pržene lignje i tartar",
+    "itemPrice": 13,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 19,
+    "itemName": "Ćevapi",
+    "itemDescription": "Ćevapi, luk, ajvar",
+    "itemPrice": 10,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 20,
+    "itemName": "Pileći nuggets",
+    "itemDescription": "Pohani komadi piletine",
+    "itemPrice": 7,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 21,
+    "itemName": "Sok naranča",
+    "itemDescription": "Prirodni sok",
+    "itemPrice": 4,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 22,
+    "itemName": "Sok jabuka",
+    "itemDescription": "Prirodni sok",
+    "itemPrice": 4,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 23,
+    "itemName": "Mineralna voda",
+    "itemDescription": "Gazirana voda",
+    "itemPrice": 3,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 24,
+    "itemName": "Limunada",
+    "itemDescription": "Domaća limunada",
+    "itemPrice": 4,
+    "currency": "€",
+    "itemSize": "LARGE",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 25,
+    "itemName": "Ledeni čaj",
+    "itemDescription": "Breskva",
+    "itemPrice": 3,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": false
+  },
+  {
+    "id": 26,
+    "itemName": "Brownie",
+    "itemDescription": "Čokoladni kolač",
+    "itemPrice": 5,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 27,
+    "itemName": "Cheesecake",
+    "itemDescription": "Kolač od sira",
+    "itemPrice": 6,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  },
+  {
+    "id": 28,
+    "itemName": "Riblji štapići",
+    "itemDescription": "Pohani riblji štapići",
+    "itemPrice": 8,
+    "currency": "€",
+    "itemSize": "MEDIUM",
+    "quantity": 1,
+    "available": true
+  }
+]

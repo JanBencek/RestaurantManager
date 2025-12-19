@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "numberOfSeats": 2,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 2,
+    "numberOfSeats": 4,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "METALNI"
+  },
+  {
+    "id": 3,
+    "numberOfSeats": 6,
+    "tableAvailable": false,
+    "tableLocation": "TERASA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 4,
+    "numberOfSeats": 8,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 5,
+    "numberOfSeats": 2,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 6,
+    "numberOfSeats": 4,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 7,
+    "numberOfSeats": 4,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "METALNI"
+  },
+  {
+    "id": 8,
+    "numberOfSeats": 6,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 9,
+    "numberOfSeats": 2,
+    "tableAvailable": false,
+    "tableLocation": "TERASA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 10,
+    "numberOfSeats": 8,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "METALNI"
+  },
+  {
+    "id": 11,
+    "numberOfSeats": 2,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 12,
+    "numberOfSeats": 4,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 13,
+    "numberOfSeats": 6,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 14,
+    "numberOfSeats": 8,
+    "tableAvailable": false,
+    "tableLocation": "TERASA",
+    "type": "METALNI"
+  },
+  {
+    "id": 15,
+    "numberOfSeats": 2,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 16,
+    "numberOfSeats": 4,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 17,
+    "numberOfSeats": 6,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 18,
+    "numberOfSeats": 8,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 19,
+    "numberOfSeats": 2,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "METALNI"
+  },
+  {
+    "id": 20,
+    "numberOfSeats": 4,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 21,
+    "numberOfSeats": 6,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "METALNI"
+  },
+  {
+    "id": 22,
+    "numberOfSeats": 8,
+    "tableAvailable": false,
+    "tableLocation": "UNUTRA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 23,
+    "numberOfSeats": 2,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 24,
+    "numberOfSeats": 4,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "METALNI"
+  },
+  {
+    "id": 25,
+    "numberOfSeats": 6,
+    "tableAvailable": false,
+    "tableLocation": "TERASA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 26,
+    "numberOfSeats": 8,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "PLASTIČNI"
+  },
+  {
+    "id": 27,
+    "numberOfSeats": 2,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "DRVENI"
+  },
+  {
+    "id": 28,
+    "numberOfSeats": 4,
+    "tableAvailable": false,
+    "tableLocation": "TERASA",
+    "type": "METALNI"
+  },
+  {
+    "id": 29,
+    "numberOfSeats": 6,
+    "tableAvailable": true,
+    "tableLocation": "UNUTRA",
+    "type": "STAKLENI"
+  },
+  {
+    "id": 30,
+    "numberOfSeats": 8,
+    "tableAvailable": true,
+    "tableLocation": "TERASA",
+    "type": "DRVENI"
+  }
+]

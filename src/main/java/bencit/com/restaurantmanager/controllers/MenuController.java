@@ -6,7 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 
 public class MenuController {
-    public void showEmployeesScreen() {
+    private void showEmployeesScreen() {
         try{
             FXMLLoader fxmlLoader = new FXMLLoader(Program.class.getResource("employees-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
@@ -19,7 +19,7 @@ public class MenuController {
             Dialog.showErrorDialog(e);
         }
     }
-    public void showOrdersScreen() {
+    private void showOrdersScreen() {
         try{
             FXMLLoader fxmlLoader = new FXMLLoader(Program.class.getResource("orders-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
@@ -34,7 +34,7 @@ public class MenuController {
         }
 
     }
-    public void showTablesScreen(){
+    private void showTablesScreen(){
         try{
             FXMLLoader fxmlLoader = new FXMLLoader(Program.class.getResource("tables-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());
@@ -47,7 +47,7 @@ public class MenuController {
             Dialog.showErrorDialog(e);
         }
     }
-    public void showItemsScreen(){
+    private void showItemsScreen(){
         try{
             FXMLLoader fxmlLoader = new FXMLLoader(Program.class.getResource("items-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load());

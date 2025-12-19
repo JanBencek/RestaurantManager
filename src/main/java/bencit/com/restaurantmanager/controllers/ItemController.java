@@ -101,7 +101,7 @@ public class ItemController {
         readFromFile();
     }
 
-    @FXML void saveToFile() {
+    @FXML private void saveToFile() {
         if (file == null) {
             FileChooser fc = new FileChooser();
             fc.setTitle("Save File");
@@ -121,7 +121,7 @@ public class ItemController {
         }
     }
 
-    @FXML void readFromFile() {
+    @FXML private void readFromFile() {
         if (file == null || !file.exists()) {
             bencit.com.restaurantmanager.utils.Dialog.showErrorDialog(new IOException());
             return;
@@ -138,13 +138,13 @@ public class ItemController {
             e.printStackTrace();
         }
     }
-    @FXML void clearFile() {
+    @FXML private void clearFile() {
         availableItems.clear();
         itemIdTracker = 1;
 
         if (file != null && file.exists()) {
             try (FileWriter writer = new FileWriter(file, false)) {
-                writer.write("[]"); // Initialize with an empty JSON array
+                writer.write("[]");
             } catch (Exception e) {
                 e.printStackTrace();
             }

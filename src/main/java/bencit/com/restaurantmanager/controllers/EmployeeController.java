@@ -40,8 +40,7 @@ public class EmployeeController {
     @FXML private ComboBox<EmployeeRoles> roleOfEmployeeComboBox;
     ObservableList<Employee> availableEmployees = AppState.availableEmployees();
     String dateOfBirthFormatted;
-    @FXML
-    void addEmployee() {
+    @FXML private void addEmployee() {
         String name = nameOfEmployeeTextField.getText();
         String lastName = lastNameOfEmployeeTextField.getText();
         String phoneNumber = phoneNumberOfEmployeeTextField.getText();
@@ -75,7 +74,7 @@ public class EmployeeController {
         pathToFileTextField.setText(String.valueOf(file));
         readFromFile();
     }
-    @FXML void saveToFile() {
+    @FXML private void saveToFile() {
         if (file == null) {
             FileChooser fc = new FileChooser();
             fc.setTitle("Save File");
@@ -95,19 +94,14 @@ public class EmployeeController {
         }
     }
 
-    @FXML
-    void readFromFile() {
+    @FXML private void readFromFile() {
         if (file == null || !file.exists()) {
             bencit.com.restaurantmanager.utils.Dialog.showErrorDialog(new IOException());
             return;
         }
-
         try (Jsonb jsonb = JsonbBuilder.create();
              FileReader reader = new FileReader(file, StandardCharsets.UTF_8)) {
-
-            // Define the type for a List of Employee objects
             List<Employee> loadedEmployees = jsonb.fromJson(reader, new ArrayList<Employee>(){}.getClass().getGenericSuperclass());
-
             if (loadedEmployees != null) {
                 availableEmployees.setAll(loadedEmployees);
                 employeeIdTracker = availableEmployees.stream().mapToInt(Employee::getId).max().orElse(0) + 1;
@@ -117,19 +111,18 @@ public class EmployeeController {
         }
     }
 
-    @FXML
-    void clearFile() {
+    @FXML private void clearFile() {
         availableEmployees.clear();
         employeeIdTracker = 1;
         if (file != null && file.exists()) {
             try (FileWriter writer = new FileWriter(file, false)) {
-                writer.write("[]"); // Initialize with an empty JSON array
+                writer.write("[]");
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
     }
-    @FXML void getDate(){
+    @FXML private void getDate(){
         LocalDate dateOfBirth = dateOfBirthDatePicker.getValue();
         dateOfBirthFormatted = dateOfBirth.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }

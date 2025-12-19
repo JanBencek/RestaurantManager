@@ -26,8 +26,7 @@ public class PickOrderItemsController extends Dialog<ObservableList<Item>> {
     @FXML private TableColumn<Item, String> selectedQuantityOfItemColumn;
     @FXML private TableColumn<Item, String> selectedSizeOfItemColumn;
 
-    @FXML
-    public void initialize() {
+    @FXML public void initialize() {
         selectableItemsTable.setItems(availableItems);
         selectNameOfItemColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getItemName()));
         selectSizeOfItemColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().getItemSize().name()));
@@ -82,16 +81,14 @@ public class PickOrderItemsController extends Dialog<ObservableList<Item>> {
 
 
 
-    @FXML
-    void addItemsToOrder() {
+    @FXML private void addItemsToOrder() {
         AppState.selectedItems().setAll(itemsOfOrder);
         System.out.println(AppState.selectedItems());
         Stage currentStage = (Stage) confirmItemsToOrder.getScene().getWindow();
         currentStage.close();
     }
 
-    @FXML
-    void clearItemsInOrder() {
+    @FXML private void clearItemsInOrder() {
     itemsOfOrder.clear();
     selectedItemsTable.setItems(itemsOfOrder);
     selectedItemsTable.refresh();

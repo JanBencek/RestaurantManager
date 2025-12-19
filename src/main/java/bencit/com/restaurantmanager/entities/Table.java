@@ -19,45 +19,34 @@ public class Table implements Serializable {
         this.tableAvailable = tableAvailable;
         this.tableLocation = tableLocation;
     }
-
     public Table(){}
-
     public Integer getId() {
         return id;
     }
-
     public void setId(Integer id) {
         this.id = id;
     }
-
     public TableTypes getType() {
         return type;
     }
-
     public void setType(TableTypes type) {
         this.type = type;
     }
-
     public Integer getNumberOfSeats() {
         return numberOfSeats;
     }
-
     public void setNumberOfSeats(Integer numberOfSeats) {
         this.numberOfSeats = numberOfSeats;
     }
-
     public Boolean getTableAvailable() {
         return tableAvailable;
     }
-
     public void setTableAvailable(Boolean tableAvailable) {
         this.tableAvailable = tableAvailable;
     }
-
     public TableLocations getTableLocation() {
         return tableLocation;
     }
-
     public void setTableLocation(TableLocations tableLocation) {
         this.tableLocation = tableLocation;
     }

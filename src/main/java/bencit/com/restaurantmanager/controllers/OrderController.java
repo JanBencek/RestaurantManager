@@ -45,8 +45,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
     @FXML private TableColumn<Order, PaymentMethods> paymentMethodOfOrderColumn;
     @FXML private TableColumn<Order, String> orderPaidColumn;
 
-    @FXML
-    public void initialize() {
+    @FXML public void initialize() {
         ordersTable.setItems(AppState.availableOrders());
         numberOfOrderTableColumn.setCellValueFactory(cellData -> new SimpleObjectProperty<>(cellData.getValue().getTableId()));
         itemsOfOrderColumn.setCellValueFactory(cellData -> new SimpleStringProperty(
@@ -63,7 +62,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
 
     }
 
-    @FXML void openAddItemsToOrderDialog(){
+    @FXML private void openAddItemsToOrderDialog(){
         try{
             FXMLLoader loader = new FXMLLoader(Program.class.getResource("add-items-to-order-view.fxml"));
             Parent root = loader.load();
@@ -78,7 +77,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
         }
     }
 
-    @FXML void addOrder() {
+    @FXML private void addOrder() {
         Integer selectedTableId = numberOfOrderTableComboBox.getValue();
         PaymentMethods selectedPaymentMethod = paymentMethodOfOrderComboBox.getValue();
         Boolean orderPaid = orderPaidRadioButton.isSelected();
@@ -97,7 +96,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
         pathToFileTextField.setText(String.valueOf(file));
         readFromFile();
     }
-    @FXML void saveToFile() {
+    @FXML private void saveToFile() {
         if (file == null) {
             FileChooser fc = new FileChooser();
             fc.setTitle("Save File");
@@ -116,7 +115,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
         }
     }
 
-    @FXML void readFromFile() {
+    @FXML private void readFromFile() {
         if (file == null || !file.exists()) {
             bencit.com.restaurantmanager.utils.Dialog.showErrorDialog(new IOException());
             return;
@@ -133,7 +132,7 @@ private final ObservableList<Order> availableOrders = bencit.com.restaurantmanag
             e.printStackTrace();
         }
     }
-    @FXML void clearFile() {
+    @FXML private void clearFile() {
         availableOrders.clear();
         orderIdTracker = 1;
         if (file != null && file.exists()) {
